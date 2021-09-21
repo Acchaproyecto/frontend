@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;1,100;1,200&display=swap');
+
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+/* You can add global styles to this file, and also import other style files */
+
+
+
+
+// Botones
+.btn {
+    @apply font-bold py-2 px-4 rounded-3xl;
+};
+
+.btn-primary {
+    @apply bg-primary-500 text-white;
+};
+
+.btn-primary:hover {
+    @apply bg-primary-700
+};
+
+
+.btn-secondary {
+    @apply bg-secondary-500 text-white;
+};
+
+
+.btn-secondary:hover {
+    @apply bg-secondary-700;
+}
+
+// H1
+.h1{
+    @apply flex justify-center text-3xl;
+}
+
+// Card
+.card {
+    @apply bg-yellow-600 max-w-sm rounded shadow-lg;
+}
+
+
+// Input opcional
+.form-control {
+    @apply flex-1 appearance-none border border-transparent w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-md rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-primary-600 focus:border-transparent
+};
+
+
+
